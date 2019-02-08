@@ -7,3 +7,8 @@ iMap is a simple application of google map through which finding location with t
           marker.setPosition(location);
           marker.addListener('dragend', handleEvent);
         }
+# What can be done with iMap.js
+    1) Autoselect address list from input.
+    2) Mark selected address in the map.
+    3) Click on map and add marker.
+    4) Retrive back address, lat, lng, street, city, state, country from the new marker to autoselect input textbox.
